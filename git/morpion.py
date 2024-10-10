@@ -6,7 +6,8 @@ class Morpion:
 
     def afficher(self):
         """Afficher le plateau."""
-        pass
+        for ligne in self.__plateau:
+            print(f" {ligne[0]} | {ligne[1]} | {ligne[2]}")
 
     def jouer_coup(self):
         pass
@@ -21,7 +22,7 @@ class Morpion:
         pass
 
     def jouer(self):
-        pass
+        self.afficher()
 
 if __name__ == "__main__":
     m = Morpion
