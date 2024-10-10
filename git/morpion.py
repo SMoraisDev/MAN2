@@ -5,6 +5,7 @@ class Morpion:
         self.__joueur = "X"
 
     def afficher(self):
+        """Afficher le plateau."""
         pass
 
     def jouer_coup(self):
