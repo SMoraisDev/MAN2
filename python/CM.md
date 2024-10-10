@@ -11,8 +11,8 @@ style: |
 ---
 
 <!--
-#header: Technologie Logiciel
-footer: Technologies Logicielles | :e-mail: sebastien.morais@proton.me
+#header: MAN2
+footer: MAN2 | :e-mail: sebastien.morais@proton.me
 -->
 
 <style>
