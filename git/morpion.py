@@ -5,6 +5,7 @@ class Morpion:
         self.__joueur = "X"
 
     def afficher(self):
+        """Afficher le plateau."""
         for ligne in self.__plateau:
             print(f" {ligne[0]} | {ligne[1]} | {ligne[2]}")
 
